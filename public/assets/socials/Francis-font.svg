@@ -1,0 +1,31 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"></stop>
+      <stop offset="100%" stop-color="#020617"></stop>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="110" fill="url(#bgGradient)"></circle>
+
+  <!-- Accent ring -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#38bdf8" stroke-width="4" opacity="0.7"></circle>
+
+  <!-- Stylized F (tech/cyber vibe) -->
+  <path d="
+      M 95 70
+      H 155
+      V 85
+      H 115
+      V 110
+      H 145
+      V 125
+      H 115
+      V 170
+      H 95
+      Z
+    " fill="#e5e7eb"></path>
+
+  <!-- Small accent square -->
+  <rect x="150" y="80" width="10" height="10" rx="2" fill="#38bdf8"></rect>
+</svg>
